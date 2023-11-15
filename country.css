@@ -82,3 +82,33 @@ header {
     }
   }
 }
+
+.dropdown {
+   color: var(--v-light-gray);
+   margin-top: 2rem;    
+}
+
+.dropdown P { 
+  background-color: var(--dark-blue);
+  padding: 1rem 1rem 1rem  3rem;
+  border-radius: 5px;
+  width: 50%;
+  
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: var(--dark-blue);
+  width: 50%;
+  color: white;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: small;
+
+
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+  
+}
